@@ -405,7 +405,7 @@ function renderTopControls(){
     // Regenerate button (only in preview mode)
     if(state.activeType==='preview'){
       const regenBtn=document.createElement('button'); regenBtn.className='btn primary'; regenBtn.style.minWidth='140px';
-      regenBtn.innerHTML='↻ REGENERATE'; regenBtn.onclick=()=>generatePreview(g.no);
+      regenBtn.innerHTML='↻'; regenBtn.onclick=()=>generatePreview(g.no);
       top.appendChild(regenBtn);
     }
     
